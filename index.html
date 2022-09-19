@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Calculetor</title>
+   <style>
+    .calculetor{
+        width:400px;
+        background-color:cadetblue;
+        padding:20px;
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 3px 2px 3px 3px rgb(58, 57, 57);
+        position: relative;
+        left:30px;
+        top:10px;
+
+    }
+       .row
+       {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-top: 10px;
+       }
+       
+       
+       .btn{
+        height: 60px;
+        width:80px;
+        font-size: 40px;
+        font-weight: bold;
+        border:1px solid black;
+        border-radius: 10px;
+         }
+         .btn:hover{
+            cursor:pointer;
+            box-shadow: 0px 2px 4px 3px grey;
+         }
+         .screen{
+            background-color: rgb(64, 194, 199);
+            height: 80px;
+            width:390px;
+            border: 1px solid black;
+            font-size: 50px;
+                }  
+         .btn1{
+            height: 60px;
+        width:80px;
+        font-size: 30px;
+        font-weight: bold;
+        border:1px solid black;
+        border-radius: 10px;
+        margin-left:60px;
+         }
+         .btn1:hover{
+            cursor:pointer;
+            box-shadow: 0px 2px 4px 3px grey;
+         }
+         .citizen{
+            font-size: 50px;
+         }
+        
+        </style>
+</head>
+<body>
+    <div class="calculetor">
+        <span class="citizen">Citizen</span>
+        <input type="text" id="input" class="screen"/>
+        <div class="row">
+            <button class="btn1">C/CE</button>
+            <button class="btn1">OFF</button>
+            <button class="btn1" style="font-weight:bold">√</button>
+         </div>
+
+        <div class="row">
+            <button class="btn" style="font-size:30px;">MRC</button>
+            <button class="btn" style="font-size:30px;">M+</button>
+            <button class="btn" style="font-size:30px;">M-</button>
+            <button class="btn">%</button>
+        </div>
+
+        <div class="row">
+           <button class="btn">7</button>
+           <button class="btn">8</button>
+           <button class="btn">9</button>
+           <button class="btn">÷</button>
+        </div>
+
+        <div class="row">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">x</button>
+         </div>
+
+         <div class="row">
+            <button class="btn">3</button>
+            <button class="btn">2</button>
+            <button class="btn">1</button>
+            <button class="btn">-</button>
+         </div>
+
+         <div class="row">
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+            <button class="btn">+</button>
+            <button class="btn">=</button>
+         </div>
+</body>
+</html>
